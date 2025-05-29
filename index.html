@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elisaveta Saifullina</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta http-equiv="Content-Security-Policy">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    
+  
+</head>
+
+<body>
+    <div class="header-container">
+    <div class="header"> 
+        <a href="index.html" class="logo">
+            <img src="logo.png" alt="Логотип">
+        </a>
+            <nav class="nav">
+                <a href="#author">Об авторе</a>
+                <a href="#services">Услуги</a>
+                <a href="portfolio.html">Портфолио</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+        </div>
+    </div>
+    <div class="greeting_text">
+        <section class="greeting_text"> 
+            <h1>Elisaveta Saifullina</h1>
+            <div class="text-box">
+                Елизавета Сайфуллина - дизайнер, художник-иллюстратор. Добро пожаловать в мир моды, где каждая деталь имеет значение. Я создаю одежду в русском стиле, сочетающую традиционные мотивы с современными трендами, чтобы подчеркнуть вашу уникальность и рассказать вашу историю через дизайн.
+            </div>
+
+        </section>
+
+        <section class="image-container"> 
+            <div class="image-container">
+            <div class="image">
+                <img class="image" src="эскиз.png"> 
+            </div>
+            <div class="image">
+                <img class="image" src="поручи.png"> 
+            </div>
+            <div class="image">
+                <img class="image" src="кокошники.png"> 
+            </div>
+        </div>
+        </section>
+    </div>
+
+<div id="author" class="container_author">
+    <div class="left-side">
+	<section class="about_autor">
+            <h1>Об авторе</h1>
+            <div class="text-box_author">
+                Меня зовут Лиза, и я дизайнер одежды, специализирующийся на создании уникальных коллекций в русском стиле. Вдохновляясь богатым культурным наследием нашей страны, я стремлюсь сочетать традиционные элементы с современными тенденциями моды. Мой путь в мире дизайна начался три года назад, и за это время я разработала множество оригинальных моделей, которые отражают красоту и разнообразие русской эстетики. Каждое мое творение — это не просто одежда, а история, которую я хочу рассказать через ткань и форму. 
+            </div>
+            <div class="programms">
+	<h2>Образование</h2>
+        <ul>
+            <li> <p> Санкт-Петербургский государственный университет промышленных технологий и дизайна
+ <p> Направление подготовки: 54.03.03 Искусство костюма и текстиля</li>
+            
+        </ul>
+        <h2>Программы</h2>
+        <ul>
+            <li>Figma</li>
+            <li>Adobe Photoshop</li>
+               
+            </div>
+ </ul>
+    </div>
+      <div class="right-side">   
+     	 <div class="authors_photo">
+                <img class="authors_photo" src="authors_photo.jpg">
+            </div>
+
+    </div>  
+</div>
+<div class="container">
+    <!-- Кнопка "Портфолио" -->
+    <a href="portfolio.html" class="button portfolio-button">Портфолио</a>
+
+    <!-- Кнопка "Связаться с нами" -->
+    <a href="#contacts" class="button contact-button">Связаться с нами</a>   
+</div>
+
+    <div id="services" class="container_services">
+    <section class="services_h1"> 
+        <h1>Наши Услуги</h1>  
+    </section>
+    
+    <section class="services_cards"> 
+        <div class="card">
+            <img src="collection.jpg">
+            <h3>Проекты</h3>
+            <p>Создание коллекций костюмов для различных проектов</p>
+            <a href="#service1" class="button open-modal">Подробнее</a>
+        </div>
+
+        <div class="card">
+            <img src="look.jpg">
+            <h3>Образ</h3>
+            <p>Создание индивидуального модного образа</p>
+            <a href="#service2" class="button open-modal">Подробнее</a>
+        </div>
+    </section>
+
+    <!-- Модальные окна для услуг -->
+    <div id="service1" class="overlay">
+        <div class="modal">
+            <span class="close">&times;</span>
+            <img src="collection.jpg" alt="Услуга">
+            <div class="modal-content">
+                <h2>Проекты</h2>
+                <p>Создание коллекций костюмов для различных проектов. Индивидуальный подход к каждому клиенту, разработка уникального стиля с учетом всех пожеланий.</p>
+                <a href="#contacts" class="button">Контакты</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="service2" class="overlay">
+        <div class="modal">
+            <span class="close">&times;</span>
+            <img src="look.jpg" alt="Услуга">
+            <div class="modal-content">
+                <h2>Образ</h2>
+                <p>Создание индивидуального модного образа. Полный цикл от эскиза до реализации, подбор материалов и аксессуаров.</p>
+                <a href="#contacts" class="button">Контакты</a>
+            </div>
+        </div>
+    </div>
+    </div>
+<div class="contact-form-container">
+    <div class="contact-form">
+    <div id="contacts" class="container_contacts">
+        <h1>Контакты</h1>
+        
+        <div class="social-links">
+            <a href="https://vk.com/helissaa" target="_blank">VK</a>
+            <a href="https://t.me/elisaveta_saifullina_fashion" target="_blank">Telegram</a>
+        </div>
+    
+        <p>Электронная почта: <a href="mailto:elizabeta.saifullina@yandex.ru">elizabeta.saifullina@yandex.ru</a></p>
+        <p>Контактный телефон: <a href="tel:+7995768998">+79957689984</a></p>
+        <div class="contact-form">
+            <h3>Мы с Вами свяжемся</h3>
+            <form id="contact-form" 
+                action="https://formspree.io/f/xrbqalje" 
+                method="POST">
+
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Ваш электронный адрес:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Ваш запрос:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+    
+    
+                <!-- Кнопка отправки -->
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+     </div>
+</div>
+</body>
+</html>
